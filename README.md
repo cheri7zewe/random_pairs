@@ -1,0 +1,1 @@
+This is a web app designed to create a random pairing of names. This specific one is for pairing up students for groupwork. Simply enter the number of students in class and then one name in each box. If you have an odd number of names, the last group will be a set of three.

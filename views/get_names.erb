@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	
+</head>
+<body>
+	<p>How many people are in class today</p>
+	<p>Enter the number of names you want to pair</p>
+	<%= name_pairs %>
+	<%= message %>
+	
+	<form action="get_names" method="post">
+		<input type="number" id="user_pairs" oninput="makeBoxes()"/>
+	
+  		<div id="boxes"></div>
+
+  		<input type="submit">
+
+  	</form>
+
+	<script src="/scripts/script.js"></script>
+</body>
